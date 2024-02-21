@@ -9,7 +9,7 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-
+		//веб-ресурс, выдающий рандомные шутки
 		String url = "https://official-joke-api.appspot.com/random_joke";
 
 		WebClient.Builder builder = WebClient.builder();
